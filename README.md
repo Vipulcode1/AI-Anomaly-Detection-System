@@ -1,10 +1,98 @@
-# AI-Based-Anomaly-Detection-Platform
-
-##The AI-Driven Healthcare Anomaly Detection System is an end-to-end real-time monitoring and decision-support platform designed to detect abnormal patterns in patient vital signs and generate early health risk alerts. 
+# \# AI-Based Anomaly Detection System
 
 
-##Unlike traditional healthcare monitoring systems that rely on static thresholds or post-incident analysis, this system continuously analyzes live physiological data streams using machine learning models to identify anomalies as they occur.
 
-##Detected anomalies are stored in a PostgreSQL database, visualized on an interactive Flask-based dashboard, and critical alerts automatically trigger email notifications to healthcare administrators.
+##### \## Description
 
-##The project demonstrates the practical application of machine learning, real-time data streaming, backend APIs, and dashboard visualization in solving real-world healthcare monitoring challenges.
+This project implements an anomaly detection system using the Isolation Forest algorithm to identify abnormal patterns in data. It can be applied in fraud detection, network security, and system monitoring.
+
+
+
+##### \## Developed By
+
+Vipul Gupta
+
+
+
+##### \## Objectives
+
+\- Detect anomalies in numerical datasets
+
+\- Implement machine learning model for unsupervised learning
+
+\- Analyze normal vs abnormal data behavior
+
+
+
+##### \## Technologies Used
+
+\- Python
+
+\- NumPy
+
+\- Scikit-learn
+
+
+
+##### \## Algorithm Used
+
+Isolation Forest:
+
+\- Works by isolating anomalies instead of profiling normal data
+
+\- Efficient for large datasets
+
+\- Unsupervised learning method
+
+
+
+##### \## Project Structure
+
+\- anomaly\_detection.py → main model
+
+\- README.md → project documentation
+
+
+
+\## How to Run
+
+1\. Install dependencies:
+
+&nbsp;  pip install numpy scikit-learn
+
+
+
+2\. Run the program:
+
+&nbsp;  python anomaly\_detection.py
+
+
+
+\## Output
+
+\- Outputs prediction array
+
+\- -1 → anomaly
+
+\- 1 → normal data
+
+
+
+\## Applications
+
+\- Fraud Detection
+
+\- Network Intrusion Detection
+
+\- Fault Detection in Systems
+
+
+
+\## Future Improvements
+
+\- Add real dataset
+
+\- Visualization using graphs
+
+\- Web-based interface
+
